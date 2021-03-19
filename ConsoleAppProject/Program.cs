@@ -1,5 +1,6 @@
 ﻿using ConsoleAppProject.App01;
 //using ConsoleAppProject.App02;
+using ConsoleAppProject.App03;
 using System;
 
 namespace ConsoleAppProject
@@ -24,21 +25,32 @@ namespace ConsoleAppProject
 
             Console.WriteLine("1. Distance converter");
             Console.WriteLine("2. BMI Calculator");
+            Console.WriteLine("3. Student Grades");
             Console.WriteLine(0);
 
             Console.WriteLine("Select an applocation  ");
             string choice = Console.ReadLine();
+            if (choice == "1")
+               {
+                DistanceConverter converter = new DistanceConverter();
+                converter.MilesToFeet();
+                converter.MetresToMiles();
+                converter.KilometresToMiles();
+                converter.MilesToFeet2();
+                converter.MetresToMiles2();
+                converter.KilometresToMiles2();
+                converter.MetresTofeet();
+                converter.FeetToMetres();
+               }
+            else if (choice == "2")
+                  {
 
-
-            DistanceConverter converter = new DistanceConverter();
-            converter.MilesToFeet();
-            converter.MetresToMiles();
-            converter.KilometresToMiles();
-            converter.MilesToFeet2();
-            converter.MetresToMiles2();
-            converter.KilometresToMiles2();
-            converter.MetresTofeet();
-            converter.FeetToMetres();
+                  }
+            else if (choice == "3")
+            {
+                StudentMarks students = new StudentMarks();
+                students.Run();
+            }
 
 
             // BMI calculator = new BMI();

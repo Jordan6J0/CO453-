@@ -25,9 +25,12 @@ namespace ConsoleAppProject.App01
         private double Kilometres;
 
 
+
+
         /// <summary>
         /// Run
         /// </summary>
+
         public void MilesToFeet()
         {
             Console.WriteLine("");
@@ -124,9 +127,55 @@ namespace ConsoleAppProject.App01
                 Console.WriteLine("7. Metres to feet");
                 Console.WriteLine("8. Feet to metres");
                 Console.WriteLine(0);
+
+                Console.WriteLine("Select a converter  ");
+                string choice = Console.ReadLine();
+                if (choice == "1")
+                {
+                  
+                }
+
+                else if (choice == "2")
+                {
+
+                }
+
+                else if (choice == "3")
+                {
+
+                }
+
+                else if (choice == "4")
+                {
+
+                }
+
+                else if (choice == "5")
+                {
+
+                }
+
+                else if (choice == "6")
+                {
+
+                }
+
+                else if (choice == "7")
+                {
+
+                }
+
+                else if (choice == "8")
+                {
+
+                }
+
             }
 
         }
+
+
+        
 
         /// <summary>
         /// Input miles 

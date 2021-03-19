@@ -1,8 +1,10 @@
-﻿using System.ComponentModel;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel;
+
 namespace ConsoleAppProject.App03
 {
     /// <summary>
+    /// This Enumeration will provide the grades for our student app
     /// Grade A is First Class   : 70 - 100
     /// Grade B is Upper Second  : 60 - 69
     /// Grade C is Lower Second  : 50 - 59
@@ -11,20 +13,23 @@ namespace ConsoleAppProject.App03
     /// </summary>
     public enum Grades
     {
-        [Display(Name = "Fail")]
-        [Description("Referred")]
+        [Description("No grade has been assigned yet")]
+        [Display(Name = "No Grade has been awarded.")]
+        NULL,
+        [Description("Not Passed")]
+        [Display(Name = "Failed")]
         F,
-        [Display(Name = "III")]
-        [Description("BSc(Hons) Third Class")]
+        [Description("Third Class")]
+        [Display(Name = "Third Class")]
         D,
-        [Display(Name = "II-2")]
-        [Description("BSc(Hons) Lower Second")]
+        [Description("Lower Second")]
+        [Display(Name = "Lower Second")]
         C,
-        [Display(Name = "II-1")]
-        [Description("BSc(Hons) Upper Second")]
+        [Display(Name = "Upper Second")]
+        [Description("Upper Second")]
         B,
-        [Display(Name = "1st")]
-        [Description("BSc(Hons) First Class")]
+        [Description("First Class")]
+        [Display(Name = "First Class")]
         A
     }
 }

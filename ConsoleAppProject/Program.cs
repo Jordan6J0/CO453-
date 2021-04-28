@@ -1,6 +1,9 @@
 ﻿using ConsoleAppProject.App01;
 //using ConsoleAppProject.App02;
 using ConsoleAppProject.App03;
+using ConsoleAppProject.App04;
+using ConsoleAppProject.App04.Socialnet;
+using ConsoleAppProject.App05;
 using System;
 
 namespace ConsoleAppProject
@@ -26,6 +29,9 @@ namespace ConsoleAppProject
             Console.WriteLine("1. Distance converter");
             Console.WriteLine("2. BMI Calculator");
             Console.WriteLine("3. Student Grades");
+            Console.WriteLine("4. Student Grades");
+            Console.WriteLine("5. Student Grades");
+
             Console.WriteLine(0);
 
             Console.WriteLine("Select an applocation  ");
@@ -47,6 +53,16 @@ namespace ConsoleAppProject
 
                   }
             else if (choice == "3")
+            {
+                StudentMarks students = new StudentMarks();
+                students.Run();
+            }
+            else if (choice == "4")
+            {
+                Socialnet social = new Socialnet();
+                social.Run();
+            }
+            else if (choice == "5")
             {
                 StudentMarks students = new StudentMarks();
                 students.Run();

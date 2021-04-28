@@ -64,23 +64,23 @@ namespace ConsoleAppProject.App04.Users
         private void InitializeFilesPath()
         {
             FriendListFile = Path.Combine
-            (@"C:\Users\andre\source\repos\andreicruceru95\CO453-C-Apps\ConsoleAppProject\App04\Bin", Username + "FriendList.bin");
+            (@"C:\Users\Jorda\source\repos\Jordan6J0\CO453-\ConsoleAppProject\App04\Users\Bin", Username + "FriendList.bin");
             MessageListFile = Path.Combine
-            (@"C:\Users\andre\source\repos\andreicruceru95\CO453-C-Apps\ConsoleAppProject\App04\Bin", Username + "MessageList.bin");
+            (@"C:\Users\Jorda\source\repos\Jordan6J0\CO453-\ConsoleAppProject\App04\Users\Bin", Username + "MessageList.bin");
             RecievedFriendRequestFile = Path.Combine
-            (@"C:\Users\andre\source\repos\andreicruceru95\CO453-C-Apps\ConsoleAppProject\App04\Bin", Username + "RecievedFriendRequestList.bin");
+            (@"C:\Users\Jorda\source\repos\Jordan6J0\CO453-\ConsoleAppProject\App04\Users\Bin", Username + "RecievedFriendRequestList.bin");
             SentFriendRequestFile = Path.Combine
-            (@"C:\Users\andre\source\repos\andreicruceru95\CO453-C-Apps\ConsoleAppProject\App04\Bin", Username + "SentFriendRequestList.bin");
+            (@"C:\Users\Jorda\source\repos\Jordan6J0\CO453-\ConsoleAppProject\App04\Users\Bin", Username + "SentFriendRequestList.bin");
             LikedCommentsFile = Path.Combine
-            (@"C:\Users\andre\source\repos\andreicruceru95\CO453-C-Apps\ConsoleAppProject\App04\Bin", Username + "LikedCommentsList.bin");
+            (@"C:\Users\Jorda\source\repos\Jordan6J0\CO453-\ConsoleAppProject\App04\Users\Bin", Username + "LikedCommentsList.bin");
             DislikedCommentsFile = Path.Combine
-            (@"C:\Users\andre\source\repos\andreicruceru95\CO453-C-Apps\ConsoleAppProject\App04\Bin", Username + "DislikedCommentsList.bin");
+            (@"C:\Users\Jorda\source\repos\Jordan6J0\CO453-\ConsoleAppProject\App04\Users\Bin", Username + "DislikedCommentsList.bin");
             LikedPostsFile = Path.Combine
-            (@"C:\Users\andre\source\repos\andreicruceru95\CO453-C-Apps\ConsoleAppProject\App04\Bin", Username + "LikedPostsList.bin");
+            (@"C:\Users\Jorda\source\repos\Jordan6J0\CO453-\ConsoleAppProject\App04\Users\Bin", Username + "LikedPostsList.bin");
             DislikedPostsFile = Path.Combine
-            (@"C:\Users\andre\source\repos\andreicruceru95\CO453-C-Apps\ConsoleAppProject\App04\Bin", Username + "DislikedPostsList.bin");
+            (@"C:\Users\Jorda\source\repos\Jordan6J0\CO453-\ConsoleAppProject\App04\Users\Bin", Username + "DislikedPostsList.bin");
             OwnedPostsFile = Path.Combine
-            (@"C:\Users\andre\source\repos\andreicruceru95\CO453-C-Apps\ConsoleAppProject\App04\Bin", Username + "OwnedPostsList.bin");
+            (@"C:\Users\Jorda\source\repos\Jordan6J0\CO453-\ConsoleAppProject\App04\Users\Bin", Username + "OwnedPostsList.bin");
         }
 
         /// <summary>
